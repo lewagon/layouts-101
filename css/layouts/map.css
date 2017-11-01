@@ -1,15 +1,20 @@
+/* TODO: code the map layout using flexbox */
+
+
+/* Some basic cards and map design  */
+.card {
+  font-size: 25px;
+  color: white;
+  font-weight: bolder;
+  text-align: center;
+  text-shadow: 0 0 10px rgba(0,0,0,0.7);
+  background-size: cover;
+  background-position: center;
+  padding: 50px 0px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  margin: 10px 0px;
+}
+
 #map {
-  flex: 0 0 450px;
-  height: 100vh;
-  position: sticky !important;
-  top: 0 !important;
-}
-.main-container {
-  display: flex;
-}
-.results-container {
-  flex-grow: 1;
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
+  height: 200px;
 }

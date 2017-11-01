@@ -1,35 +1,17 @@
-.dashboard {
-  display: grid;
-  grid-template-columns: 300px 1fr 1fr 1fr;
-  grid-template-rows: 50% 50%;
-  height: calc(100vh - 110px);
-  margin-top: 20px;
-}
-.dashboard .main {
-  grid-row: 1 / span 2;
-  grid-column: 1 / span 1;
-}
-.dashboard .description {
-  grid-row: 2 / span 1;
-  grid-column: 2 / span 3;
-}
+/* TODO code the dashboard layout using the grid */
+
+
+/* Some basic design for white cards */
 .dashboard-card {
   background: white;
   box-shadow: 0 0 10px rgba(0,0,0,0.2);
-  padding: 10px;
+  padding: 20px;
   margin: 10px;
   text-align: center;
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
-@media (max-width: 940px) {
-  .profile {
-    display: block;
-  }
-}
-
-/* Fonts and colors */
 .dashboard h2 {
   font-size: 25px;
 }

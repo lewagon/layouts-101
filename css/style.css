@@ -1,12 +1,6 @@
 /* Importing Google fonts */
 @import url("https://fonts.googleapis.com/css?family=Nunito:300,400,700,800,900");
 
-/* Importing components */
-@import url("components/avatar.css");
-@import url("components/card.css");
-@import url("components/footer.css");
-@import url("components/navbar.css");
-
 /* Importing layouts */
 @import url("layouts/blogpost.css");
 @import url("layouts/map.css");
@@ -35,4 +29,16 @@ h2 {
 }
 h3 {
   font-size: 23px;
+}
+.navbar-minimal {
+  height: 70px;
+  background: white;
+  box-shadow: 0px -2px 10px rgba(0,0,0,0.3);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.navbar-minimal img {
+  width: 50px;
+  height: 50px;
 }
