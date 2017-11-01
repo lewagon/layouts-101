@@ -1,5 +1,4 @@
 /* Designing layouts */
-
 .main-container {
   display: flex;
 }
@@ -39,6 +38,11 @@
 }
 
 /* Page content */
+.avatar-slack {
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+}
 .message {
   display: flex;
   margin: 25px 40px;

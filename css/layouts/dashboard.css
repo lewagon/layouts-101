@@ -23,8 +23,8 @@
   align-items: center;
   justify-content: space-around;
 }
-@media (max-width: 940px) {
-  .profile {
+@media (max-width: 992px) {
+  .dashboard {
     display: block;
   }
 }
