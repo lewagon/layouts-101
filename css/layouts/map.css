@@ -1,0 +1,15 @@
+#map {
+  flex: 0 0 450px;
+  height: 100vh;
+  position: sticky !important;
+  top: 0 !important;
+}
+.main-container {
+  display: flex;
+}
+.results-container {
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
